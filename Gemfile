@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
+gem 'bcrypt', '3.1.11'
 
 group :test do
   gem 'rails-controller-testing', '1.0.2'
