@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
   		# Log the user in and redirect to the user's show page
   		print 'hello world'
   	else
-  		flash[:danger] = 'Invalid email/password combination'
+  		flash.now[:danger] = 'Invalid email/password combination'
   		render 'new'
   	end
   end
